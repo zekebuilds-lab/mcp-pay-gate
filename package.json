@@ -1,0 +1,48 @@
+{
+  "name": "@powforge/mcp-pay-gate",
+  "version": "0.2.0",
+  "mcpName": "io.github.zekebuilds-lab/mcp-pay-gate",
+  "description": "Dual-rail Lightning paywall middleware for MCP servers. Accepts L402 macaroons (legacy) and x402-bip122-exact payments (forward-compat). One LNBits backend, both rails. v0.2.0 ships the real x402-bip122-exact verifier.",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "modelcontextprotocol",
+    "mcp-auth",
+    "mcp-payment",
+    "l402",
+    "x402",
+    "lightning",
+    "agent-auth",
+    "paywall",
+    "middleware",
+    "express",
+    "bitcoin",
+    "claude",
+    "ai"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "license": "MIT",
+  "author": "PowForge",
+  "dependencies": {
+    "light-bolt11-decoder": "^3.2.0"
+  },
+  "homepage": "https://powforge.dev/mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zekebuilds-lab/mcp-pay-gate"
+  },
+  "bugs": {
+    "url": "https://powforge.dev"
+  },
+  "files": [
+    "src/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
